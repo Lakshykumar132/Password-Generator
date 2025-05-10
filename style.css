@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/buildAssets%2FQIPRW8cOdNLzhm8evlHX%2Fbackground.png?alt=media&token=a6286285-b3c7-4f29-8c73-c23ac509b4a4') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.password {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    width: 100%;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.copy-btn {
+    margin-top: 15px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+.copy-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    .password {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+    button, .copy-btn {
+        font-size: 1.1rem;
+    }
+}
